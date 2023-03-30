@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo"><span class="blind">(주)밀리의 서재 로고</span><a href=""></a></h1>
+        <nav class="gnb">
+            <a href="" class="btn-menu"><i></i><span class="blind">메뉴</span></a>
+            <ul class="menu-list">
+                <li class="menu-item"><a href="">기업문의</a></li>
+                <li class="menu-item"><a href="">회사소개</a></li>
+                <li class="menu-item"><a href="">계정관리</a></li>
+                <li class="menu-item"><a href="">고객센터</a></li>
+            </ul>
+        </nav>
+        <a href="" class="btn-login">로그인</a>
+    </header>
+    <main class="containar">
+
+        <section class="sc-visual">
+            <div class="group-ad">
+                <h2><span class="blind">당신의 일상을 1밀리+독서와 무제한 친해지리</span></h2>
+            </div>
+        </section>
+
+        <section class="sc-slide" id="start">
+            <div class="group-text">
+                <h2>당신을 기다리는<br>12만권의 도서</h2>
+                <p>첫 달 무료 구독을 통해<br>어떤 도서가 있는지 확인해보세요</p>
+            </div>
+            <div class="group-slide">
+                <div class="slide-wrap ver1"></div>
+                <div class="slide-wrap ver2"></div>
+                <div class="slide-wrap ver3"></div>
+            </div>
+        </section>
+        <section class="sc-video-bs hideme">
+            <div class="group-text">
+                <h2>오디오 드라마로 만나는<br>베스트 셀러</h2>
+                <p>휴남동 서점의 따뜻한 이야기를<br>일상에서 더 가깝게</p>
+            </div>
+            <div class="group-img" id="video1">
+                <a href="" class="btn-play" data-target="#video1" data-url="yvsQq--S3QQ">
+                    <img src="./assets/images/bs-video.jpg" alt="">
+                </a>
+            </div>
+        </section>
+
+
+        <section class="sc-impact hideme">
+            <div class="group-text">
+                <h2>싹 다 무제한<br>9,900원</h2>
+                <p>10년치 베스트셀러<br>신간 오디오북 장르 소설까지</p>
+            </div>
+            <!-- content -->
+            <section class="content">
+                <div class="swiper group-book">
+                    <h3 class="title">지금 서점 베스트 셀러</h3>
+                    <ul class="swiper-wrapper book-list" id="bookList1">
+                    </ul>
+                </div>
+                <div class="swiper group-book best">
+                    <h3 class="title">오디오북 BEST</h3>
+                    <ul class="swiper-wrapper book-list" id="bookList2">
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+
+        <section class="sc-impact hideme">
+            <div class="group-text">
+                <h2>관심 분야에 있는 책도<br>딱 골라 드려요</h2>
+                <p>검색어 순위를 통해 뽑은<br>인기 분야 책들을 확인해보세요</p>
+            </div> 
+            <section class="content">
+                <div class="swiper group-book">
+                    <div class="category-wrap">
+                        <a href="" class="active">주식</a>
+                        <a href="">영어</a>
+                        <a href="">고전</a>
+                        <a href="">인테리어</a>
+                        <a href="">다이어트</a>
+                    </div>
+                    <ul class="swiper-wrapper book-list" id="cateList1">
+                        <!-- ,,, -->
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+
+        <section class="sc-algorithm hideme">
+            <div class="group-text">
+                <h2>당신이 끝까지 읽을 책을<br>알려주는 완독지수</h2>
+                <p>350만 밀리 회원이 먼저 읽고<br>다 읽을 확률과 예상 시간을 알려드려요</p>
+            </div>
+            <div class="group-icon">
+                <ul class="content-list">
+                    <li class="conten-item holic"><img src="./assets/images/ct01.png" alt="홀릭"></li>
+                    <li class="conten-item mania"><img src="./assets/images/ct02.png" alt="마니아"></li>
+                    <li class="conten-item pick"><img src="./assets/images/ct03.png" alt="픽"></li>
+                    <li class="conten-item hide"><img src="./assets/images/ct04.png" alt="홀드"></li>
+                </ul>
+                <div class="phon-wrap">
+                    <div class="phon"><img src="./assets/images/phon.png" alt></div>
+                    <div class="point"><img src="./assets/images/phon02.png" alt="소설 분야 평균대비"></div>
+                </div>
+            </div>
+        </section>
+        <section class="sc-subscription hideme">
+            <div class="group-text">
+                <h2>언제든 해지 가능!<br>첫달 무료로 가볍게</h2>
+                <p>상황에 맞게 원하는 요금제를<br>자유롭게 선택하세요</p>
+            </div>
+            <div class="group-choice">
+                <ul class="choice-list">
+                    <li class="choice-item">
+                        <h3>전자책 정기구독</h3>
+                        <span class="price">월<strong>9,900</strong><span class="money">원</span></span>
+                        <span class="sale">118,800원</span>
+                        <span class="year">연<strong>99,900</strong></span>
+                        <p>밀리에서 제공하는 콘텐츠를 무제한으로</p>
+                    </li>
+                    <li class="choice-item">
+                        <h3>전자책 정기구독</h3>
+                        <span class="price">월<strong>9,900</strong><span class="money">원</span></span>
+                        <span class="sale">118,800원</span>
+                        <span class="year">연<strong>99,900</strong></span>
+                        <p>밀리에서 제공하는 콘텐츠를 무제한으로</p>
+                    </li>
+                </ul>
+                <div class="text-wrap">
+                    <p class="img01">무료 체험 기간 동안 해지해도<br>금액이 청구되지 않아요</p>
+                    <p class="img02">유료 결제되어도 사용 이력이<br>없으면 즉시 환불해드려요</p>
+                </div>
+            </div>
+        </section>
+        <section class="sc-viewer hideme">
+            <div class="group-nav">
+                <a href="#audio" class="audio active">오디오북</a>
+                <a href="#view" class="view">밀리 뷰어</a>
+                <a href="#today" class="today">투데이</a>
+            </div>
+            <div class="contents">
+                <div class="inner1 active" id="audio">
+                    <div class="group-text">
+                        <h2>오디오 북</h2>
+                        <p>세상에서 가장<br>교양있는 수면제</p>
+                    </div>
+
+                    <div class="frame">
+                        <figure class="bg"></figure>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" id="audio-sd">
+                                    <img src="./assets/images/iphon.png" alt="">
+                                </div>
+                                <div class="swiper-slide" id="audio-sd">
+                                    <img src="./assets/images/iphon.png" alt="">
+                                </div>
+                                <div class="swiper-slide" id="audio-sd">
+                                    <img src="./assets/images/iphon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-title" id="viewT1">
+                        <strong>하루의 시작과 마무리를 오디오북과 함께</strong>
+                        <p>지하철에서도, 잠들기전에도 독서하세요</p>
+                        <div class="swiper-pagination">
+                        </div>
+                    </div>
+                </div>
+                <div class="inner1" id="view">
+                    <div class="group-text">
+                        <h2>밀리 뷰어</h2>
+                        <p>독서를 위한 가장<br>완벽한 도구</p>
+                    </div>
+
+                    <div class="frame">
+                        <figure class="bg"></figure>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <video src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/sight2.mp4?v1" autoplay="autoplay" preload="auto" muted="muted" loop="loop" playsinline=""></video>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/iphon.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/iphon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-title">
+                        <strong>시선 추적 기능</strong>
+                        <p>눈동자로 페이지를 넘길 수 있어요</p>
+                        <div class="swiper-pagination">
+                        </div>
+                    </div>
+                </div>
+                <div class="inner1" id="today">
+                    <div class="group-text">
+                        <h2>투데이</h2>
+                        <p>쓱 - 훑어만 봐도<br>도서 트렌드를 한 눈에</p>
+                    </div>
+
+                    <div class="frame">
+                        <figure class="bg"></figure>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <video src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/sight2.mp4?v1"></video>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/iphon.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/iphon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-title">
+                        <strong>당신을 위한 추천</strong>
+                        <p>키워드로 한 눈에 정리한 추천 도서</p>
+                        <div class="swiper-pagination">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc-video hideme">
+            <div class="group-img">
+
+                <div class="text-wrap">
+                    <h2>내돈 내산<br>밀리 구독 이야기</h2>
+                    <p>패션 브랜드 대표부터<br>고등학교 교사까지!</p>
+                </div>
+
+                <div class="img-wrap" id="video2">
+                    <a href="" class="btn-play" data-target="#video2" data-url="ghPv2HndkK4">
+                        <img src="./assets/images/video.png" alt="내돈 내산 밀리 구독 이야기 동영상 실행">
+                    </a>
+                </div>
+            
+            </div>
+        </section>
+        <section class="sc-qna hideme">
+            <div class="group-text">
+                <h2>자주 묻는 질문</h2>
+            </div>
+            <ul class="qna-list">
+                <li class="qna-item">
+                    <a href="" class="btn-qna">안쓰면 정말 환불해 주나요?</a>
+                    <div class="qna-wrap">
+                        <p>물론입니다. 결제 후 콘텐츠 다운로드 및 열람을 하지 않으셨다면 전액 환불해 드리고 있어요.<br><em>[밀리 &gt; 관리  &gt; 구독관리 &gt; 결제 내역 확인]</em> 에서 직접 환불이 가능하며,<br>해결이 어려운 경우 고객센터로 문의해 주세요.</p>
+                    </div>
+                </li>
+                <li class="qna-item">
+                    <a href="" class="btn-qna">안쓰면 정말 환불해 주나요?</a>
+                    <div class="qna-wrap">
+                        <p>물론입니다. 결제 후 콘텐츠 다운로드 및 열람을 하지 않으셨다면 전액 환불해 드리고 있어요.<br><em>[밀리 &gt; 관리  &gt; 구독관리 &gt; 결제 내역 확인]</em> 에서 직접 환불이 가능하며,<br>해결이 어려운 경우 고객센터로 문의해 주세요.</p>
+                    </div>
+                </li>
+                <li class="qna-item">
+                    <a href="" class="btn-qna">안쓰면 정말 환불해 주나요?</a>
+                    <div class="qna-wrap">
+                        <p>물론입니다. 결제 후 콘텐츠 다운로드 및 열람을 하지 않으셨다면 전액 환불해 드리고 있어요.<br><em>[밀리 &gt; 관리  &gt; 구독관리 &gt; 결제 내역 확인]</em> 에서 직접 환불이 가능하며,<br>해결이 어려운 경우 고객센터로 문의해 주세요.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="group-logo">
+            <h2>(주) 밀리의 서재</h2>
+            <ul class="sns-list">
+                <li class="sns-item youtube"><a href=""><span class="blind">@@@@@</span></a></li>
+                <li class="sns-item instagram"><a href=""><span class="blind">@@@@@</span></a></li>
+                <li class="sns-item facebook"><a href=""><span class="blind">@@@@@</span></a></li>
+                <li class="sns-item kakako"><a href=""><span class="blind">@@@@@</span></a></li>
+                <li class="sns-item naver"><a href=""><span class="blind">@@@@@</span></a></li>
+            </ul>
+        </div>
+        <address class="group-addr">
+            <a class="btn-on">사업자 정보 펼쳐보기</a>
+            <div class="addr-wrap">
+                <p>대표이사 : 서영택<i></i>사업자등록번호 : 423-88-00370<i></i>호스팅 제공자 : (주)밀리의 서재</p>
+                <p>통신판매업 신고번호 : 2016-서울마포-2012호</p>
+                <p><i></i>주소 : 서울특별시 마포구 양화로 45, 16층 (메세나폴리스 세아타워)</p>
+                <p><br>고객정보보호 책임자 : 김태형(<a href="mailto:eiron@millie.town">beiron@millie.town</a>)</p>
+                <p><i></i>마케팅 제휴 문의 : <a href="mailto:business@millie.town">business@millie.town</a></p>
+            </div>
+        </address>
+        <!-- group-policy -->
+        <div class="group-info">
+            <ul class="info-list">
+                <li class="info-item"><a href="">이용약관</a></li>
+                <li class="info-item st"><a href="">개인정보처리방침</a></li>
+                <li class="info-item"><a href="">청소년보호정책</a></li>
+                <li class="info-item"><a href="">고객센터</a></li>
+                <li class="info-item"><a href="">B2B문의</a></li>
+                <li class="info-item"><a href="">콘텐츠 제휴문의</a></li>
+                <li class="info-item"><a href="">뷰어 다운로드</a></li>
+                <li class="info-item"><a href="">회사 소개</a></li>
+            </ul>
+        </div>
+        <p class="copy">opyright © 2022 밀리의 서재 All Rights Reserved.</p>
+        <a href="" class="btn-subscription">첫 달 무료로 독서 시작하기</a>
+    </footer>
+</body>
+</html>

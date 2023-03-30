@@ -1,0 +1,52 @@
+{
+    "items":[
+        {
+            "id":"00001",
+            "thumbnail":"./assets/images/book1.webp",
+            "title":"안녕 트렌트 코리아 2023",
+            "writer":"김난도, 전미영, 최지혜, 이수진, 권정윤, 이준영, 이향은, 한다혜, 이혜원, 추예린",
+            "fav":40,
+            "time":284
+        },
+        {
+            "id":"00002",
+            "thumbnail":"./assets/images/book2.webp",
+            "title":"내가 틀릴 수도 있습니다.",
+            "writer":"김난도, 전미영, 최지혜, 이수진, 권정윤, 이준영, 이향은, 한다혜, 이혜원, 추예린",
+            "fav":40,
+            "time":276
+        },
+        {
+            "id":"00003",
+            "thumbnail":"./assets/images/book3.webp",
+            "title":"만일 내가 인생을 다시 산다면",
+            "writer":"김난도, 전미영, 최지혜, 이수진, 권정윤, 이준영, 이향은, 한다혜, 이혜원, 추예린",
+            "fav":40,
+            "time":284
+        },
+        {
+            "id":"00004",
+            "thumbnail":"./assets/images/book4.webp",
+            "title":"불편한 편의점2",
+            "writer":"김난도, 전미영, 최지혜, 이수진, 권정윤, 이준영, 이향은, 한다혜, 이혜원, 추예린",
+            "fav":40,
+            "time":284
+        },
+        {
+            "id":"00005",
+            "thumbnail":"./assets/images/book5.webp",
+            "title":"천 원을 경영하라",
+            "writer":"김난도, 전미영, 최지혜, 이수진, 권정윤, 이준영, 이향은, 한다혜, 이혜원, 추예린",
+            "fav":40,
+            "time":284
+        },
+        {
+            "id":"00006",
+            "thumbnail":"./assets/images/book6.webp",
+            "title":"조금 서툴더라도 네 인생을 응원해",
+            "writer":"김난도, 전미영, 최지혜, 이수진, 권정윤, 이준영, 이향은, 한다혜, 이혜원, 추예린",
+            "fav":40,
+            "time":284
+        }
+    ]
+}

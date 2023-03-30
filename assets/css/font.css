@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'MDS';
+    src: url(../font/mds-icon-v3.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'NotoSer';
+    src: url(../font/NotoSerifKR-Black.woff2) format('woff2');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'SHSN';
+    src: url(../font/SpoqaHanSansNeo-Bold.woff2) format('woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'SHSN';
+    src: url(../font/SpoqaHanSansNeo-Regular.woff2) format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SHSN';
+    src: url(../font/SpoqaHanSansNeo-Thin.woff2) format('woff2');
+    font-weight: 200;
+}
+
