@@ -15,16 +15,12 @@
 .sc-slide .group-slide .slide-wrap { width: 100%; height: 200px; } 
 
 .sc-slide .group-slide .ver1 { background: url(../images/sd1.png) 0/3000px repeat-x; animation: slideLeft 100s linear infinite; } 
-
 .sc-slide .group-slide .ver2 { background: url(../images/sd2.png) 0/3000px repeat-x; animation: slideRight 100s linear infinite; } 
 .sc-slide .group-slide .ver3 { background: url(../images/sd3.png) 0/3000px repeat-x; animation: slideLeft 100s linear infinite; } 
-
-
 @keyframes slideLeft { 
  0% { background-position:0 } 
  to { background-position:-3000px } 
  }
-
 @keyframes slideRight { 
  0% { background-position:-3000px } 
  to { background-position:0 } 
